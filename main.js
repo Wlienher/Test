@@ -5,23 +5,23 @@ let azur = `
     `
 console.log("%c Sin Saldo", azur)
 
-let None = document.getElementById;
+let None = document.getElementById("None");
+let Add = document.getElementsByClassName("Add")[0];
+let color = document.getElementsByClassName("color")
+None.innerHTML = "<p class='white'>Hola Wlienher</p>";
+Add.innerText = "Soy un texto";
 
-// alert (None)
+/*
+    1. Inicializador (variable inicial)
+    2. Condicional
+    3. Modificador (aumento o decremento)
+*/
+// for (let i = 1;i <= 10; i++) {
+//     document.write("El contador es " + i + "<br>");
+// }
 
-function nombre () {
-    alert("Hola Mundo");
+// color.length = 3
+
+for (let i = 0;i < color.length; i++ ) {
+    color[i].innerText = "Soy un párrafo";
 }
-
-// Notación tradicional
-const mivar = function () {
-    alert("Estoy aprendiendo Javascript");
-}
-
-// Notación de flecha
-let otravar = (a, b) => {
-    alert("El resultado de la suma es " + (a + b));
-}
-
-// mivar();
-otravar(5, 15);

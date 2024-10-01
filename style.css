@@ -1,5 +1,5 @@
 * {
-    background: #00f;
+    background: rgb(123, 123, 155);
 }
 
 .element {
@@ -28,4 +28,12 @@
     color: rgb(0, 60, 255);
     border: 4px solid;
     border-color: blueviolet;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.color {
+
 }
