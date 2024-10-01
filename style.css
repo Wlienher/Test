@@ -37,3 +37,7 @@
 .color {
 
 }
+
+p:nth-child(even) {
+    background: yellow;
+}
