@@ -1,0 +1,31 @@
+* {
+    background: #00f;
+}
+
+.element {
+    color: aquamarine;
+}
+
+.element a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.element a:visited {
+    color: rgb(0, 255, 0);
+}
+
+.element a:focus {
+    color: #000;
+}
+
+.element a:hover {
+    color: rgb(0, 217, 255);
+    cursor: pointer;
+}
+
+.element a:active {
+    color: rgb(0, 60, 255);
+    border: 4px solid;
+    border-color: blueviolet;
+}
